@@ -8,9 +8,9 @@ The code uses Apollo server with Knex, Objection.js and sqlite.
 - Install knex globally for migrations: `npm install -g knex` | `yarn global add knex`
 - Run `knex migrate:latest` and `knex seed:run` to create the database with sample data
 - Execute `npm run dev` to start the development server on `localhost:4000`
-- Use an app like [Insomnia](https://insomnia.rest/) / [Postman]([Postman | The Collaboration Platform for API Development](https://www.postman.com/)) to send GraphQL queries to the server
+- Use an app like [Insomnia](https://insomnia.rest/) / [Postman](The Collaboration Platform for API Development](https://www.postman.com/)) to send GraphQL queries to the server
   - POST http://localhost:4000/graphql
-  - [Postman Collection](./Postmane/Graphql-nodejs-example.postman_collection.json)
+  - [Postman Collection](./Postman/Graphql-nodejs-example.postman_collection.json)
   - [Insomnia Collection](./Insomnia/Insomnia_2021-03-21.json)
 
 
